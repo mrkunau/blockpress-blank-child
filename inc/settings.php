@@ -11,6 +11,7 @@ class BlockpressChild{
         'login_form_css'    => 'body.login{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 body #login * {
     font-weight: 300
@@ -163,80 +164,7 @@ input#wp-submit {
 
         $settings =  array_merge( $this->default, $settings );
 
-        $login_css = 'body #login * {
-    font-weight: 300
-}
-body #login #wfls-token-submit{
-   background: #1d1b1a;
-    color: #ffffff;
-    border-radius: 4px;
-    border: 1px solid #1d1b1a;
-    padding: 10px 20px;
-    line-height: 1.7;
-}
-body #login #wfls-prompt-overlay{
-    background-color: #fafafa;
-        padding:10px;
-}
-body #login h1 a img {
-    background: none !important;
-    width: auto;
-    height: auto !important;
-    max-width: 100% !important;
-}
-
-div#login {
-    background: #fafafa;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 3px;
-    box-shadow: 0 0 0 0;
-}
-
-.login form {
-    margin-top: 0px;
-    margin-left: 0;
-    padding: 5px;
-    overflow: hidden;
-    background: none;
-    border: 0px solid #333;
-    box-shadow: none;
-}
-
-.wp-core-ui .wp-pwd .button,
-.wp-core-ui .wp-pwd .button-secondary {
-    background-color: transparent !important;
-    border: none !important;
-}
-
-.login form .input,
-.login input[type="text"],
-.login input[type="password"] {
-    font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 0.24), 1rem);
-    line-height: 1.7;
-    padding: 10px;
-    margin: 0 6px 16px 0;
-}
-
-.login .forgetmenot label,
-.login .pw-weak label {
-    margin-top: 12px;
-}
-
-input#wp-submit {
-    background: #1d1b1a;
-    color: #ffffff;
-    border-radius: 4px;
-    border: 1px solid #1d1b1a;
-    padding: 10px 20px;
-    line-height: 1.7;
-}
-
-#nav,
-#backtoblog {
-    text-align: center
-}';
+        $login_css = '';
 
         ?>
 

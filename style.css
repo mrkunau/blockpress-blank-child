@@ -204,6 +204,11 @@ header.site-header{position:relative;z-index:12;}
 }
 
 /* WooCommerce  */
+.woocommerce-form.woocommerce-form-register > div.form-field{
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+}
 .woocommerce-product-summary{display:flex;gap:40px;justify-content:space-between;flex-direction:row-reverse;}
 @media (max-width:767px){
 	.woocommerce-product-summary{flex-direction:column-reverse;}
