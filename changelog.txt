@@ -1,5 +1,0 @@
-*** BlockPress Child Changelog ***
-
-= 1.0.0 - 2023/04/04 =
-* First Release of the Child Theme
-* Released via a3 Dashboard as a free Block Theme download
